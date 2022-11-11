@@ -28,7 +28,7 @@
 
 定义传输数据的协议端口号，以及流控和差错校验。
 
-协议有：`TCP UDP`，数据包一旦离开网卡即进入网络传输层。
+协议有：`TCP UDP`。
 
 ### 第五层 会话层
 
@@ -51,6 +51,8 @@
 ## OSI vs TCP/IP
 
 ![](network-maintenance-primary.assets/2022-11-09-12-32-10-image.png)
+
+![](network-maintenance-primary.assets/2022-11-11-10-09-29-image.png)
 
 ### TCP
 
@@ -104,7 +106,9 @@ TCP（Transmission Control Protocol，传输控制协议）是面向连接的协
 
 ## 三层交换机防环
 
-主要协议有：`RIP OSPF IS-ISS`
+三层交换机，所谓第三层就是网络层，是负责路由转发的，因此涉及到路由协议如`静态、RIP、OSPF、IS-IS`
+
+主要协议有：`RIP OSPF IS-IS`
 
 # IPV4
 
@@ -126,6 +130,10 @@ TCP（Transmission Control Protocol，传输控制协议）是面向连接的协
 
 * `127.0.0.1`
 
+## 特殊地址
+
+![](network-maintenance-primary.assets/2022-11-11-10-11-20-image.png)
+
 # 物理隔离&逻辑隔离
 
 ## 物理隔离
@@ -145,3 +153,7 @@ TCP（Transmission Control Protocol，传输控制协议）是面向连接的协
 **2.5层虚拟网技术：** `MPLS-VPN`
 
 **三层虚拟网技术：** `GRE IPSEC`
+
+# 其他资料
+
+* [网络工程师十个常见面试问题_橙子渣渣的博客-CSDN博客](https://blog.csdn.net/qq_40472181/article/details/105380683)
